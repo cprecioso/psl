@@ -15,7 +15,7 @@
     "build": "rollup -c"
   },
   "dependencies": {
-    "@cprecioso/psl-data": "workspace:*"
+    "@cprecioso/psl-data": "workspace:^"
   },
   "devDependencies": {
     "@swc/core": "^1.2.121",

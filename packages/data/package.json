@@ -15,10 +15,10 @@
     "build": "rollup -c"
   },
   "dependencies": {
-    "@cprecioso/psl-types": "workspace:*"
+    "@cprecioso/psl-types": "workspace:^"
   },
   "devDependencies": {
-    "@cprecioso/psl-fetch": "workspace:*",
+    "@cprecioso/psl-fetch": "workspace:^",
     "@rollup/plugin-virtual": "^2.0.3",
     "@swc/core": "^1.2.121",
     "@swc/helpers": "^0.3.2",

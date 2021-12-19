@@ -9,7 +9,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@cprecioso/psl-check@workspace:packages/check"
   dependencies:
-    "@cprecioso/psl-data": "workspace:*"
+    "@cprecioso/psl-data": "workspace:^"
     "@swc/core": ^1.2.121
     "@swc/helpers": ^0.3.2
     "@types/node": ^16
@@ -19,12 +19,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cprecioso/psl-data@workspace:*, @cprecioso/psl-data@workspace:packages/data":
+"@cprecioso/psl-data@workspace:^, @cprecioso/psl-data@workspace:packages/data":
   version: 0.0.0-use.local
   resolution: "@cprecioso/psl-data@workspace:packages/data"
   dependencies:
-    "@cprecioso/psl-fetch": "workspace:*"
-    "@cprecioso/psl-types": "workspace:*"
+    "@cprecioso/psl-fetch": "workspace:^"
+    "@cprecioso/psl-types": "workspace:^"
     "@rollup/plugin-virtual": ^2.0.3
     "@swc/core": ^1.2.121
     "@swc/helpers": ^0.3.2
@@ -36,11 +36,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cprecioso/psl-fetch@workspace:*, @cprecioso/psl-fetch@workspace:packages/fetch":
+"@cprecioso/psl-fetch@workspace:^, @cprecioso/psl-fetch@workspace:packages/fetch":
   version: 0.0.0-use.local
   resolution: "@cprecioso/psl-fetch@workspace:packages/fetch"
   dependencies:
-    "@cprecioso/psl-types": "workspace:*"
+    "@cprecioso/psl-types": "workspace:^"
     "@swc/core": ^1.2.121
     "@swc/helpers": ^0.3.2
     "@types/node": ^16
@@ -50,7 +50,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cprecioso/psl-types@workspace:*, @cprecioso/psl-types@workspace:packages/types":
+"@cprecioso/psl-types@workspace:^, @cprecioso/psl-types@workspace:packages/types":
   version: 0.0.0-use.local
   resolution: "@cprecioso/psl-types@workspace:packages/types"
   dependencies:
