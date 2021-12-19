@@ -15,8 +15,6 @@ export const checkDomain = (hostname: string) => {
 
     const isPublic = currentTree?.[ResultKey] ?? publicParts.length === 0;
 
-    console.log({ hostname, parts, publicParts, currentPart, isPublic });
-
     if (isPublic) {
       publicParts.unshift(parts.shift());
       tree = currentTree!;
